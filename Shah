@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+ <title>Shah Flower</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+	<body style="color:pink; background-color:black; font-family:Lucida Calligraphy">
+	<div class="container"> 
+	<h1>Shah Flower</h1>
+	<img src="logo1.png"  class="img-circle" width="250" height="100" />
+	<p> 
+	</p>
+	<p></p>
+	</div>
+	
+	
+	<div class="container"> 
+	<div class="DROPDOWN">
+<button type="button" class="btn btn-success">HOME PAGE</button>
+<button type="button" class="btn btn-success">PRODUCTS</button>
+<button type="button" class="btn btn-success">OCCASION</button>
+<button type="button" class="btn btn-success">ABOUT US</button>
+<button type="button" class="btn btn-success">CONTACT</button>
+</div>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"> 
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="flower2.jpg" alt="Fall" style="width:200% height:100%">
+      </div>
+
+      <div class="item">
+        <img src="flower1.jpg" alt="Flower" style="width:100% height:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="flower3.jpg" alt="Gold" style="width:100%  height:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+	
+	<div class="container-fluid bg-3 text-center">    
+  <h2>Today's stars</h2><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Hand Free</p>
+      <img src="handsfree.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+   
+    <div class="col-sm-3"> 
+      <p>Love Inspire</p>
+      <img src="asdf.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	 <div class="col-sm-3"> 
+      <p>Autumn Gold</p>
+      <img src="gold.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  
+	
+	 <div class="col-sm-3">
+      <p>Smell Of Fall</p>
+      <img src="flower6.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Orange Queen</p>
+      <img src="flower7.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	 <div class="col-sm-3">
+      <p>1001 Nights</p>
+      <img src="flower16.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Pureness</p>
+      <img src="flower8.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Color Harmony</p>
+      <img src="flower9.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Van Gogh</p>
+      <img src="flower10.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Mute</p>
+      <img src="flower11.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Diamond</p>
+      <img src="flower12.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+	
+	 <div class="col-sm-3">
+      <p>Rose White</p>
+      <img src="flower13.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+
+	
+	
+	 
+	
+	
+	
+  </div>
+</div><br>
+
+
+<p>
+</p>
+<div class="container">
+  <h2>Make your order now</h2>
+ <p>Fill all columns below.</p>
+ <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <label class="sr-only" for="name">Name Surname:</label>
+      <input type="name" class="form-control" id="name" placeholder="Name Surname"  name="Name">
+    </div>
+	<p>
+	</p>
+    <div class="form-group">
+      <label class="sr-only" for="pwd">Name of Your Order:</label>
+      <input type="oder" class="form-control" id="pwd" placeholder="Name of your Order" name="pwd">
+    </div>
+	<p>
+	</p>
+	<div class="form-group">
+      <label class="sr-only" for="pwd">Card Number:</label>
+      <input type="oder" class="form-control" id="pwd" placeholder="Card Number" name="pwd">
+    </div>
+	<p>
+	</p>
+	<div class="form-group">
+      <label class="sr-only" for="pwd">Name of the Card Holder:</label>
+      <input type="oder" class="form-control" id="pwd" placeholder="Name of the Card Holder" name="pwd">
+    </div>
+	<p>
+	</p>
+	<div class="form-group">
+      <label class="sr-only" for="pwd">Security Code:</label>
+      <input type="oder" class="form-control" id="pwd" placeholder="Security Code" name="pwd">
+    </div>
+	<p>
+	</p>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+	<p>
+	</p>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+
+
+<div class="container">
+  <h2>Contact</h2>
+              
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Shah Flower</td>
+        <td>+99455000000</td>
+        <td>shahFlowers@gamil.com</td>
+      </tr>
+      <tr>
+        <td>Shahla Orujova</td>
+        <td>+994554020000</td>
+        <td>shahla.orujova@vdu.lt</td>
+      </tr>
+    
+    </tbody>
+  </table>
+</div>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</body>
